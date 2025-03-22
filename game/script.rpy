@@ -1,4 +1,6 @@
-﻿label splashscreen:
+﻿image icon = "icon.png"
+
+label splashscreen:
     scene black
     with Pause(1)
 
@@ -8,12 +10,11 @@
     hide text with dissolve
     with Pause(1)
 
-    show text "ArdHNan Since 2023" with dissolve
-    with Pause(1)
-
+    show icon with dissolve
     show text "Midnight Roadside Stall" with dissolve
     with Pause(1)
 
+    scene black with dissolve
     hide text with dissolve
     with Pause(0.5)
 
@@ -42,7 +43,7 @@ label start:
     "Selamat datang di Warkop buka pukul 22-02."
 
     scene warkop:
-        zoom 1.4
+        zoom 0.7
 
     show kamu at left:
         zoom 0.6
@@ -106,7 +107,7 @@ label main_story:
     "Tidak lama kemudian muncul seseorang"
 
     scene warkop:
-        zoom 1.4
+        zoom 0.7
     hide andra
     hide kamu
 
@@ -122,7 +123,15 @@ label main_story:
     player_name "oalah mas asep siap mas indomie nya siap di masak. di tunggu ya mas"
     hide kamu
     hide asep
+    show layer master: 
+        blur 10 
+    with fade
+
     "beberapa saat kemudian"
+    show layer master:
+        blur 0
+    with fade
+    
     show kamu at left:
         zoom 0.6
     player_name "ini mas indomie nya..."

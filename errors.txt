@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 24: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    zoom 1.2
-    ^
+File "game/script.rpy", line 44: scene statement expects a non-empty block.
+    scene warkop:
+                 ^
+
+File "game/script.rpy", line 107: scene statement expects a non-empty block.
+    scene warkop:
+                 ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Mar 22 15:45:43 2025
+Sat Mar 22 18:05:47 2025
