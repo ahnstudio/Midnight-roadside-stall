@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 46, in script
+    [player_name] "ini pak roti nya... oiya bapak namanya siapa ya?"
+Exception: Sayer b'[player_name]' is not a function or string.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 46, in script
+    [player_name] "ini pak roti nya... oiya bapak namanya siapa ya?"
+  File "D:\.download\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "D:\.download\renpy-8.3.7-sdk\renpy\ast.py", line 600, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer b'[player_name]' is not a function or string.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+midnight roadside stall 1.0
+Sat Mar 22 06:34:30 2025
