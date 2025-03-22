@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 24: show statement expects a non-empty block.
-    show kamu resized:
-                      ^
-
-File "game/script.rpy", line 25: expected statement.
-    zoom 0.5
-          ^
+File "game/script.rpy", line 24: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    zoom 1.2
+    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Mar 22 06:59:22 2025
+Sat Mar 22 15:45:43 2025

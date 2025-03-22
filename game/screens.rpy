@@ -557,6 +557,13 @@ screen about():
 
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
+            text "{a=https://ahnstudio.github.io}AHN STUDIO{/a}\n"
+            text "Developers: Lahnan,Ardhan"
+            text "Art: Lahnan"
+            text "Story: Lahnan"
+            text "Song: {a=https://www.youtube.com/watch?v=lqUMNCRS3p4}Barradeen - Bedtime After A Coffee{/a}"
+            text "    : Music powered by BreakingCopyright\n"
+            
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
